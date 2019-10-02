@@ -11,7 +11,7 @@
         "Snippets"
     ],
     "icon": "mclibre-logo.png",
-    "homepage": "https://github.com/BartolomeSintes/mclibre-org-vscode-snippets-extension/blob/master/README.md",
+    "homepage": "https://github.com/BartolomeSintes/mclibre-org-vscode-snippets-extension/",
     "license": "MIT",
     "repository": {
         "type": "git",
@@ -22,6 +22,32 @@
             {
                 "language": "php",
                 "path": "./snippets/snippets.json"
+            }
+        ],
+        "keybindings": [
+            {
+                "key": "ctrl+alt+v ctrl+alt+l",
+                "command": "editor.action.insertSnippet",
+                "args": {
+                    "langId": "php",
+                    "name": "Pega HTML en PHP (líneas)"
+                }
+            },
+            {
+                "key": "ctrl+alt+v ctrl+alt+b",
+                "command": "editor.action.insertSnippet",
+                "args": {
+                    "langId": "php",
+                    "name": "Pega HTML en PHP (bloque)"
+                }
+            },
+            {
+                "key": "ctrl+alt+v ctrl+alt+q",
+                "command": "editor.action.insertSnippet",
+                "args": {
+                    "langId": "php",
+                    "name": "Pega HTML en PHP (comillas)"
+                }
             }
         ]
     }
