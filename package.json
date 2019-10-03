@@ -11,11 +11,11 @@
         "Snippets"
     ],
     "icon": "mclibre-logo.png",
-    "homepage": "https://github.com/BartolomeSintes/mclibre-org-vscode-snippets-extension/",
+    "homepage": "https://github.com/BartolomeSintes/mclibre-org-vscode-snippets-extension",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/BartolomeSintes/clibre-org-vscode-snippets-extension"
+        "url": "https://github.com/BartolomeSintes/mclibre-org-vscode-snippets-extension"
     },
     "contributes": {
         "snippets": [
