@@ -4,6 +4,9 @@ All notable changes to the "mclibre-org-snippets" extension will be documented i
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 0.3.0 (2019-10-10)
+- Corrijo Expresión regular para que sea compatible con Visual Studio Code 1.39
+
 ## 0.2.1 (2019-10-03)
 - Corrijo enlace a repositorio
 

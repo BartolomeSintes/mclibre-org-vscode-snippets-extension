@@ -2,7 +2,7 @@
     "Pega HTML en PHP (líneas)": {
         "prefix": "mc1",
         "body": [
-            "print \"${CLIPBOARD/(\")|(\\r\\n)/${1:+\\\"}${2:+\\n\";\nprint \"}/g}\\n\";\n"
+            "print \"${CLIPBOARD/(\")|(\\r\\n)/${1:+\\\\\"}${2:+\\\\n\";\nprint \"}/g}\\n\";\n"
         ],
         "description": "Pega HTML (print por línea y escapa comillas)"
     },
