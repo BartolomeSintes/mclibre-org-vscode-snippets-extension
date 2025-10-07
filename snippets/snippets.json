@@ -25,6 +25,6 @@
         "body": [
             "${CLIPBOARD/(&)|(<)|(>)/${1:+&amp;}${2:+&lt;}${3:+&gt;}/g}"
         ],
-        "description": "Pega HTML (escapa desigualdades)"
+        "description": "Pega HTML en HTML (caracteres especiales)"
     }
 }
