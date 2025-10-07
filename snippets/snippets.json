@@ -2,7 +2,7 @@
     "Pega HTML en PHP (líneas)": {
         "prefix": "mc1",
         "body": [
-            "print \"${CLIPBOARD/(\")|(\\r\\n)/${1:+\\\\\"}${2:+\\\\n\";\nprint \"}/g}\\n\";\n"
+            "print \"${CLIPBOARD/(\")|(\\r\\n)|(\\n)/${1:+\\\\\"}${2:+\\\\n\";\nprint \"}${3:+\\\\n\";\nprint \"}/g}\\n\";\n"
         ],
         "description": "Pega HTML (print por línea y escapa comillas)"
     },
@@ -19,5 +19,12 @@
             "${CLIPBOARD/\"/\\\"/g}\n"
         ],
         "description": "Pega HTML (escapa comillas)"
+    },
+	"Pega HTML en HTML (caracteres especiales)": {
+        "prefix": "mc4",
+        "body": [
+            "${CLIPBOARD/(&)|(<)|(>)/${1:+&amp;}${2:+&lt;}${3:+&gt;}/g}"
+        ],
+        "description": "Pega HTML (escapa desigualdades)"
     }
 }

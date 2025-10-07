@@ -48,6 +48,14 @@
                     "langId": "php",
                     "name": "Pega HTML en PHP (comillas)"
                 }
+            },
+            {
+                "key": "ctrl+alt+v ctrl+alt+e",
+                "command": "editor.action.insertSnippet",
+                "args": {
+                    "langId": "html",
+                    "name": "Pega HTML en HTML (caracteres especiales)"
+                }
             }
         ]
     }
