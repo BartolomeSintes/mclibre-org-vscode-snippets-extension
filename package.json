@@ -50,10 +50,18 @@
                 }
             },
             {
+                "key": "ctrl+alt+v ctrl+alt+d",
+                "command": "editor.action.insertSnippet",
+                "args": {
+                    "langId": "php",
+                    "name": "Pega HTML en HTML (desigualdades)"
+                }
+            },
+            {
                 "key": "ctrl+alt+v ctrl+alt+e",
                 "command": "editor.action.insertSnippet",
                 "args": {
-                    "langId": "html",
+                    "langId": "php",
                     "name": "Pega HTML en HTML (caracteres especiales)"
                 }
             }
